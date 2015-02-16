@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -9,8 +9,38 @@
                 tools:context=".MainActivity">
 
     <TextView
-        android:text="@string/hello_world"
+        android:id="@+id/left_text"
+        android:text="@string/left_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"/>
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/left_text_below"
+        android:text="@string/left_text_below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:id="@+id/right_text"
+        android:text="@string/right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"/>
+
+    <TextView
+        android:id="@+id/bottom_center_text"
+        android:text="@string/bottom_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/bottom_center_text_above"
+        android:text="@string/bottom_center_text_above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"/>
+
+</FrameLayout>

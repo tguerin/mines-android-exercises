@@ -2,4 +2,9 @@
     <string name="app_name">Android Exercises</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="left_text">left text</string>
+    <string name="right_text">right text</string>
+    <string name="bottom_center_text">bottom center text</string>
+    <string name="left_text_below">left text below</string>
+    <string name="bottom_center_text_above">bottom center above</string>
 </resources>
