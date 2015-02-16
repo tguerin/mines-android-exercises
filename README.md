@@ -1,5 +1,3 @@
-# Start activity
+# Start activity for result
 
-In the MainActivity fix the todo. Then launch the application.
-
-Hint : same hint as permissions exercise
+Fix the todos in MainActivity and NewActivity. Then launch the application.
