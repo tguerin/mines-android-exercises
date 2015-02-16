@@ -1,1 +1,1 @@
-# mines-android-exercises
+# Layouts
